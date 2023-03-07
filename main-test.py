@@ -1,7 +1,8 @@
-def Add(a , b) :
-  return a + b
-def SayHello () :
-  print ( "sup world from srcmake" )
+from main import Add
 
-if __name__ == '__main__' :
-  SayHello ()
+def TestAdd():
+    assert Add(2,3) == 5
+    print("Add Function works correctly")
+
+if __name__ == '__main__'
+  TestAdd()
